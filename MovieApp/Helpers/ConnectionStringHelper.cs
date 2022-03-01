@@ -14,7 +14,7 @@ namespace MovieApp.Helpers
             {
                 SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
                 sqlConnectionStringBuilder.DataSource = "MURAT-LAPTOP\\SQLEXPRESS";
-                sqlConnectionStringBuilder.InitialCatalog = "MarvelUniverseDb";
+                sqlConnectionStringBuilder.InitialCatalog = "NolanverseDb";
                 sqlConnectionStringBuilder.IntegratedSecurity = true;
                 sqlConnectionStringBuilder.TrustServerCertificate = true;
 

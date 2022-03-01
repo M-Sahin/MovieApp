@@ -8,8 +8,8 @@ using MovieApp.Data;
 
 namespace MovieApp.Migrations
 {
-    [DbContext(typeof(MarvelUniverseDbContext))]
-    [Migration("20220301092844_InitialDB")]
+    [DbContext(typeof(NolanverseDbContext))]
+    [Migration("20220301104050_InitialDB")]
     partial class InitialDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

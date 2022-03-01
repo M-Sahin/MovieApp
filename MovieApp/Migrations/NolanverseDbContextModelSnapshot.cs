@@ -7,8 +7,8 @@ using MovieApp.Data;
 
 namespace MovieApp.Migrations
 {
-    [DbContext(typeof(MarvelUniverseDbContext))]
-    partial class MarvelUniverseDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(NolanverseDbContext))]
+    partial class NolanverseDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
