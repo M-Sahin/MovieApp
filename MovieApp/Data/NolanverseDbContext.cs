@@ -9,7 +9,7 @@ using MovieApp.Models;
 
 namespace MovieApp.Data
 {
-    public class MarvelUniverseDbContext : DbContext
+    public class NolanverseDbContext : DbContext
     {
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Character> Characters { get; set; }
